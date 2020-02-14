@@ -23,8 +23,8 @@ nds.each do |director_data|
    movies_sum += movie[:worldwide_gross]
  end
 
-  results[director_data[:name]] = movies_sum
+  result[director_data[:name]] = movies_sum
 end
 
-results
+result
 end
