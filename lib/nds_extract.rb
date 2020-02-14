@@ -17,9 +17,6 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  def directors_totals(nds)
-results = {}
-
 nds.each do |director_data|
  movies_sum = 0
  director_data[:movies].each do |movie|
